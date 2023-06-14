@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 4, Time elapsed: 7.885 s <<< FAILURE! - in TestSuite
+launchApplication(Vaibhav_Test.SelFramework.ErrorValidation)  Time elapsed: 5.618 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:53848/devtools/browser/a21400e0-7736-4ea7-bc6e-15059a54bcaf
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-HHITFIH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+
+launchApplication(Vaibhav_Test.SelFramework.StandAloneTest2)  Time elapsed: 5.619 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:53850/devtools/browser/f5706d47-be18-49ae-b713-13103c53f26b
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-HHITFIH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+
+teardown(Vaibhav_Test.SelFramework.ErrorValidation)  Time elapsed: 5.619 s  <<< FAILURE!
+java.lang.NullPointerException
+
+teardown(Vaibhav_Test.SelFramework.StandAloneTest2)  Time elapsed: 5.619 s  <<< FAILURE!
+java.lang.NullPointerException
+
+launchApplication(Vaibhav_Test.SelFramework.StandAloneTest2)  Time elapsed: 7.85 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:53870/devtools/browser/2420314d-2895-4f72-898b-e0c660f9376a
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-HHITFIH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+
+teardown(Vaibhav_Test.SelFramework.StandAloneTest2)  Time elapsed: 7.85 s  <<< FAILURE!
+java.lang.NullPointerException
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Vaibhav_Test.SelFramework.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ErrorValidationTest(failed)" parallel="tests">
+    <classes>
+      <class name="Vaibhav_Test.SelFramework.ErrorValidation">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="teardown"/>
+          <include name="checkError"/>
+        </methods>
+      </class> <!-- Vaibhav_Test.SelFramework.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+  <test thread-count="5" verbose="0" name="OrderSubmitTest(failed)" parallel="tests">
+    <classes>
+      <class name="Vaibhav_Test.SelFramework.StandAloneTest2">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="teardown"/>
+          <include name="OrderHistoryTest"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- Vaibhav_Test.SelFramework.StandAloneTest2 -->
+    </classes>
+  </test> <!-- OrderSubmitTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

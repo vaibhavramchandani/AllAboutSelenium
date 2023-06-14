@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="Vaibhav_Test.SelFramework.Listeners"></listener>
+		</listeners>
+	<test thread-count="5" name="OrderSubmitTest">
+		<classes>
+			<class name="Vaibhav_Test.SelFramework.StandAloneTest2" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="ErrorValidationTest">
+		<classes>
+			<class name="Vaibhav_Test.SelFramework.ErrorValidation" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
